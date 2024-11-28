@@ -1,0 +1,44 @@
+.utrinki {
+    text-align: center;
+    color: black;
+    width: 600px;
+    margin: 50px auto;
+    font-weight: bold;
+    text-align: justify;
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.flexbox {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    color: white;
+}
+
+.flexbox a {
+    color: black;
+    text-decoration: none;
+}
+
+.flexbox a:hover {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .flexbox {display: flex; flex-direction: column;}
+    .utrinki {min-width: 30%; max-width: 80%;}
+  }
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .flexbox {grid-template-columns: 1fr 1fr;}
+    .utrinki {min-width: 30%; max-width: 80%;}
+  }

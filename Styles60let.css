@@ -1,0 +1,135 @@
+.nagovor {
+    background-color: #D9E8F5;
+    color: black;
+    text-align: justify;
+    width: 30vw;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    margin: 30px auto;
+    padding: 10px 30px;
+}
+
+.nagovor h1 {
+    text-align: center;
+}
+
+.carousel {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.slikegalerija {
+    display: none;
+}
+
+.prejsnja, .naslednja {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.naslednja {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prejsnja:hover, .naslednja:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.opisslika {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.zaporednaslika {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background-color: #717171;
+}
+
+.pika {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    margin-bottom: 30px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .pika:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.gallery {
+    width: 100%;
+}
+
+.gallery-container {
+    align-items: center;
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.slika {
+    height: 200px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    width: 330px;
+    z-index: 0;
+    border-radius: 15px;
+    background-size: contain;
+}
+
+.slika1 {
+    left: 15%;
+    opacity: 0.4;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 600px) {
+    .nagovor {min-width: 250px;}
+    .carousel {width: 90%;}
+  }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .nagovor {min-width: 250px;}
+    .carousel {width: 90%;}
+  }

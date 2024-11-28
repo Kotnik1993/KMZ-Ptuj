@@ -1,0 +1,146 @@
+.dosezki1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.dosezki1 h1 {
+    color: #f13c20;
+}
+
+.dosezki1 img {
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    margin: auto;
+    position: relative;
+    padding: 30px;
+    margin: 50px;
+}
+
+.pomembnidosezki {
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    margin: auto;
+    position: relative;
+    padding: 30px;
+    margin: 50px;
+}
+
+.priznanja {
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    margin: auto;
+    position: relative;
+    padding: 30px;
+    margin: 50px;
+}
+
+.slikepriznanja {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.slikepriznanja img {
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    margin: auto;
+    position: relative;
+    padding: 30px;
+    margin: 50px;
+}
+
+.opisuvod {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    margin: auto;
+    position: relative;
+    padding: 30px;
+    margin: 50px;
+}
+
+.opisuvod h1 {
+    font-size: 35px;
+    color: #f13c20;
+}
+
+.opisuvod p {
+    width: 80%;
+}
+
+.vsili1, .vsili2, .vsili3 {
+    width: 33%;
+}
+
+#vsili {
+    font-size: 18px;
+    width: 90%;
+}
+
+.priznanja {
+    color: black;
+    width: 90%;
+}
+
+.priznanja h1 {
+    font-size: 40px;
+    color: #f13c20;
+}
+
+.priznanja li {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    .dosezki1 {display: flex; flex-direction: column; margin: 15px auto; width: 80%;}
+    .slikepriznanja {display: flex; flex-direction: column; margin: 15px auto; width: 70%;}
+    .slikepriznanja img {width: 80%; margin: 15px auto;}
+    .dosezki1 img {width: 80%; margin: 15px auto;}
+    .opisuvod {display: flex; flex-direction: column; width: 70%; margin: 15px auto;}
+    .vsili1 {width: 80%; margin: auto;}
+    .vsili2 {width: 80%; margin: auto;}
+    .vsili3 {width: 80%; margin: auto;}
+  }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .dosezki1 {display: flex; flex-direction: column; margin: 15px auto; width: 80%;}
+    .slikepriznanja {display: flex; flex-direction: column; margin: 15px auto; width: 70%;}
+    .slikepriznanja img {width: 80%; margin: 15px auto;}
+    .dosezki1 img {width: 80%; margin: 15px auto;}
+    .opisuvod {display: flex; flex-direction: column; width: 70%; margin: 15px auto;}
+    .vsili1 {width: 80%; margin: auto;}
+    .vsili2 {width: 80%; margin: auto;}
+    .vsili3 {width: 80%; margin: auto;}
+  }
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .dosezki1 {display: flex; flex-direction: column; margin: 15px auto; width: 80%;}
+    .slikepriznanja {display: flex; flex-direction: column; margin: 15px auto; width: 70%;}
+    .slikepriznanja img {width: 80%; margin: 15px auto;}
+    .dosezki1 img {width: 80%; margin: 15px auto;}
+    .opisuvod {display: flex; flex-direction: column; width: 70%; margin: 15px auto;}
+    .vsili1 {width: 80%; margin: auto;}
+    .vsili2 {width: 80%; margin: auto;}
+    .vsili3 {width: 80%; margin: auto;}
+  }
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .dosezki1 {display: flex; flex-direction: column; margin: 15px auto; width: 80%;}
+    .slikepriznanja {display: flex; flex-direction: column; margin: 15px auto; width: 70%;}
+    .slikepriznanja img {width: 80%; margin: 15px auto;}
+    .dosezki1 img {width: 80%; margin: 15px auto;}
+    .opisuvod {display: flex; flex-direction: column; width: 70%; margin: 15px auto;}
+    .vsili1 {width: 80%; margin: auto;}
+    .vsili2 {width: 80%; margin: auto;}
+    .vsili3 {width: 80%; margin: auto;}
+  }

@@ -1,0 +1,171 @@
+.zborovodja h1 {
+    text-align: center;
+    color: #f13c20;
+}
+
+.mihaelroskar h2 {
+    text-align: center;
+    border-bottom: solid 2px #4056a1;
+    width: 200px;
+    display: block;
+    margin: auto;
+    color: black;
+}
+
+.mihaelroskar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    position: relative;
+    width: 1300px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.mihaelroskar p {
+    color: black;
+}
+
+.mihaelroskar img {
+    width: 300px;
+    position: relative;
+}
+
+.mropis {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.variant-table {
+    margin: 20px auto;
+}
+
+.variant-table tr {
+    display: flex;
+    flex-direction: column;
+}
+
+.variant-table td {
+    padding: 10px;
+}
+
+.tenor {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.prvitenor {
+    text-align: center;
+    color: black;
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    width: 600px;
+    margin: 50px;
+}
+
+.prvitenor h1 {
+    text-align: center;
+    color: #f13c20;
+}
+
+.drugitenor {
+    text-align: center;
+    color: black;
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    width: 600px;
+    margin: 50px;
+}
+
+.drugitenor h1 {
+    text-align: center;
+    color: #f13c20;
+}
+
+.basisti {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.bariton {
+    text-align: center;
+    color: black;
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    width: 600px;
+    margin: 50px;
+}
+
+.bariton h1 {
+    text-align: center;
+    color: #f13c20;
+}
+
+.bas {
+    text-align: center;
+    color: black;
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    width: 600px;
+    margin: 50px;
+}
+
+.bas h1 {
+    text-align: center;
+    color: #f13c20;
+}
+
+.bas table {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .mihaelroskar {display: flex; flex-direction: column; width: 70%; margin: 20px auto;}
+    .mihaelroskar img {margin: 0 auto;}
+    .tenor {display: flex; flex-direction: column; width: 90%; align-items: center;}
+    .prvitenor {width: 90%;}
+    .drugitenor {width: 90%;}
+    .basisti {display: flex; flex-direction: column; width: 90%; align-items: center;}
+    .bariton {width: 90%;}
+    .bas {width: 90%;}
+  }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .mihaelroskar {display: flex; flex-direction: column; width: 70%; margin: 20px auto;}
+    .mihaelroskar img {margin: 0 auto;}
+    .tenor {display: flex; flex-direction: column; width: 90%; align-items: center;}
+    .prvitenor {width: 90%;}
+    .drugitenor {width: 90%;}
+    .basisti {display: flex; flex-direction: column; width: 90%; align-items: center;}
+    .bariton {width: 90%;}
+    .bas {width: 90%;}
+  }
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .mihaelroskar {display: flex; flex-direction: column; width: 70%; margin: 20px auto;}
+    .mihaelroskar img {margin: 0 auto;}
+    .tenor {display: flex; flex-direction: column; width: 90%; align-items: center;}
+    .prvitenor {width: 90%;}
+    .drugitenor {width: 90%;}
+    .basisti {display: flex; flex-direction: column; width: 90%; align-items: center;}
+    .bariton {width: 90%;}
+    .bas {width: 90%;}
+  }
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .mihaelroskar {display: flex; flex-direction: column; width: 70%; margin: 20px auto;}
+    .mihaelroskar img {margin: 0 auto;}
+    .tenor {display: flex; flex-direction: column;}
+    .basisti {display: flex; flex-direction: column;}
+  }

@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html lang="sl">
+    <head>
+        <title>KMZ Ptuj Domov</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aljaž Kotnik">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="Stylesgalerija.css">
+        <link rel="stylesheet" href="Stylessrbija.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <header>
+                <a href="KMZ Ptuj Homepage.html"><img src="Logo.jpg" alt="Logo" width="120px" height="77px"></a>
+                <button type="button" class="opensidebar" onclick="openNav()">
+                    &#9776;
+                </button>
+                <h1><a href="KMZ Ptuj Homepage.html" class="naslovlink">KMZ Ptuj</a></h1>
+                <p>Komorni moški zbor Ptuj</p>
+                <nav class="meni">
+                    <ul>
+                        <li class="menilink"><a href="KMZ Ptuj Homepage.html"><i class="fa fa-home" style="font-size:24px"></i></a></li>
+                        <li class="menilink"><a href="KMZ Ptuj O nas.html">O nas</a></li>
+                        <li class="menilink"><a href="KMZ Ptuj Pevci.html">Pevci</a></li>
+                        <li class="menilink"><a href="KMZ Ptuj Dosezki.html">Dosežki</a></li>
+                        <li class="menilink"><a href="KMZ Ptuj Galerija.html">Galerija</a></li>
+                        <li class="menilink"><a href="KMZ Ptuj Kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="KMZ Ptuj Homepage.html"><i class="fa fa-home" style="font-size:24px"></i></a>
+            <a href="KMZ Ptuj O nas.html">O nas</a>
+            <a href="KMZ Ptuj Pevci.html">Pevci</a>
+            <a href="KMZ Ptuj Dosezki.html">Dosežki</a>
+            <a href="KMZ Ptuj Galerija.html">Galerija</a>
+            <a href="KMZ Ptuj Kontakt.html">Kontakt</a>
+        </div>
+        <div class="backgroundimg">
+            <div class="nagovor">
+                <h1>Srbija</h1>
+                <p>Potovanje na gostovanje v Zrenjanin k lokalnemu kulturnemu društvu.
+                </p>
+        </div>
+        </div>
+        <div class="carousel">
+                <div class="slikegalerija fade">
+                    <div class="zaporednaslika">1 / 3</div>
+                    <img src="kmz_srbija_bih_01.jpg" style="width: 100%;">
+                    <div class="opisslika">Opis</div>
+                </div>
+                <div class="slikegalerija fade">
+                    <div class="zaporednaslika">2 / 3</div>
+                    <img src="kmz_srbija_bih_02.jpg" style="width: 100%;">
+                    <div class="opisslika">Opis</div>
+                </div>
+                <div class="slikegalerija fade">
+                    <div class="zaporednaslika">3 / 3</div>
+                    <img src="kmz_srbija_bih_03.jpg" style="width: 100%;">
+                    <div class="opisslika">Opis</div>
+                </div>
+                <a class="prejsnja" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="naslednja" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align: center;">
+            <span class="pika" onclick="currentSlide(1)"></span>
+            <span class="pika" onclick="currentSlide(2)"></span>
+            <span class="pika" onclick="currentSlide(3)"></span>
+        </div>
+        <script src="Styles.js"></script>
+    </body>
+    <footer class="footer">
+        <div class="footeropis">
+            <h1 id="footernaziv">KMZ Ptuj</h1>
+            <p>Komorni moški zbor poje tradicionalni <br>pevski program, vseh glasbenih stilskih <br>obdobij. Pomembno vlogo daje zbor petju <br>slovenske pesmi.</p>
+            <a href="https://www.facebook.com/komornimoskizborptuj/?locale=sl_SI" class="fa fa-facebook" id="fb"></a>
+        </div>
+        <div class="footerpovezave">
+            <h2>Povezave</h2>
+            <a href="KMZ Ptuj Homepage.html"><i class="fa fa-home" style="font-size:24px"></i></a>
+            <a href="KMZ Ptuj O nas.html">O nas</a>
+            <a href="KMZ Ptuj Pevci.html">Pevci</a>
+            <a href="KMZ Ptuj Dosezki.html">Dosežki</a>
+            <a href="KMZ Ptuj Galerija.html">Galerija</a>
+            <a href="KMZ Ptuj Kontakt.html">Kontakt</a>
+        </div>
+        <div class="footerkontakt">
+            <h2>Kontaktirajte nas</h2>
+            <div id="fk1">
+            <p><i class="fa fa-map-marker" style="font-size:20px;color:black"></i>Vošnjakova ulica 5, 2250 Ptuj, Slovenija</p>
+            </div>
+            <div id="fk2">
+            <p><i class="fa fa-phone" style="font-size:20px;color:black"></i><a class="tel" href="tel:+38651319129">+386 (0)51 319 129</a> Boštjan Majcenovič</p>
+            </div>
+            <div id="fk4">
+            <p><i class="fa fa-envelope-open" style="font-size:20px;color:black"></i><a class="mailto" href="mailto:bmajcenovic@gmail.com">bmajcenovic@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer2">
+        <div class="line"></div>
+        <div class="copyrights">
+            <p id="copyrightskmz">Komorni moški zbor Ptuj</p>
+            <p id="copyrightsleto">	&#169; 2024. Vse pravice pridržane.</p>
+        </div>
+    </footer>
+</html>

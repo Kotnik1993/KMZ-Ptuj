@@ -1,0 +1,213 @@
+.barvnabeseda {
+    color: #f13c20;
+}
+
+.nagovor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.nagovorhp {
+    text-align: center;
+    color: black;
+    height: 380px;
+    padding: 120px 20px 0 20px;
+    background-color: #D9E8F5;
+    width: 450px;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.nagovorhp p {
+    margin-bottom: 40px;
+}
+
+.nagovorgalerija {
+    background-color: #D9E8F5;
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.nagovorgalerija img {
+    width: 500px;
+}
+
+.linkbutton {
+    padding: 15px 25px;
+    background-color: #4056a1;
+    color: white;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linkbutton2:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.linkbutton2 {
+    padding: 15px 25px;
+    background-color: #4056a1;
+    color: white;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 black;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: 45px;
+}
+
+.linkbutton:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.linkbutton4:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.linkbutton4 {
+    padding: 15px 25px;
+    background-color: #4056a1;
+    color: white;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 black;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    margin-left: 20px;
+}
+
+.dosezkizasedba {
+    color: black;
+    display: flex;
+    margin: 70px;
+    padding: 30px;
+    background-color: #D9E8F5;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+}
+
+.linkbutton3:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.linkbutton3 {
+    padding: 15px 25px;
+    background-color: #4056a1;
+    color: white;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 black;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+}
+
+.dz1 {
+    margin: 30px;
+}
+
+.dz1 p {
+    margin-bottom: 25px;
+}
+
+.dz2 li {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dz2 {
+    width: 80%;
+}
+
+.vaszanima {
+    background-color: #D9E8F5;
+    color: black;
+    text-align: center;
+    height: 220px;
+    border: 20px solid #4056a1;
+    border-radius: 25px;
+    margin: 70px;
+    padding: 30px;
+}
+
+.vaszanima p {
+    margin-bottom: 35px;
+}
+
+.linkbutton5:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.linkbutton5 {
+    padding: 15px 25px;
+    background-color: #4056a1;
+    color: white;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 black;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .komornazasedba {display: flex; flex-direction: column;}
+    .opiszasedba {margin: 20px;}
+    .dosezkizasedba {display: flex; flex-direction: column; margin: 50px auto; width: 70%;}
+    .dz2 {margin: 20px auto;}
+    .nagovorhp {margin: 30px auto; max-width: 75%; padding-top: 40px;}
+    .nagovorgalerija {padding-bottom: 90px; max-width: 75%;}
+    .nagovorgalerija img {max-width: 100%;}
+    .vaszanima {height: 400px;}
+    .nagovor {display: flex; flex-direction: column;}
+    .linkbutton3 {top: 5px;}
+  }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .komornazasedba {display: flex; flex-direction: column;}
+    .opiszasedba {margin: 20px;}
+    .dosezkizasedba {display: flex; flex-direction: column;}
+    .dz2 {margin: 20px auto;}
+    .nagovorhp {margin: 30px auto;}
+    .nagovorgalerija {padding-bottom: 90px; max-width: 80%;}
+    .nagovorgalerija img {max-width: 100%;}
+    .vaszanima {height: 320px;}
+    .nagovor {display: flex; flex-direction: column;}
+    .linkbutton3 {top: 5px;}
+  }
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .komornazasedba {display: flex; flex-direction: column;}
+    .opiszasedba {margin: 20px;}
+    .dosezkizasedba {display: flex; flex-direction: column;}
+    .dz2 {margin: 20px auto;}
+    .nagovorhp {margin: 30px auto;}
+    .nagovorgalerija {padding-bottom: 90px;}
+    .nagovor {display: flex; flex-direction: column;}
+    .linkbutton3 {top: 5px;}
+  }
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .komornazasedba {display: flex; flex-direction: column;}
+    .opiszasedba {margin: 20px;}
+    .dosezkizasedba {display: flex; flex-direction: column;}
+    .dz2 {margin: 20px auto;}
+    .vaszanima {height: 220px;}
+    .nagovor {margin-top: 30px;}
+    .linkbutton3 {top: 8px;}
+  }

@@ -1,0 +1,230 @@
+html, body {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #c5cbe3;
+  font-family: Montserrat, Sans-serif;
+}
+
+.header {
+    background-color: #c5cbe3;
+    height: 120px;
+    margin-top: -22px;
+    border-bottom: 5px solid #4056a1;
+}
+
+.header img {
+    float: left;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.header h1 {
+    color: #4056a1;
+    padding-top: 25px;
+    padding-left: 150px;
+    margin-bottom: -10px;
+}
+
+.header p {
+    color: #f13c20;
+    padding-left: 150px;
+    font-weight: bold;
+}
+
+.meni {
+  position: relative;
+  float: right;
+  right: 150px;
+  bottom: 72px;
+}
+
+.menilink {
+  display: inline-block;
+  margin-left: 35px;
+  color: #4056a1;
+  font-weight: bold;
+}
+
+.menilink a {
+  text-decoration: none;
+  color: #4056a1;
+}
+
+.menilink a:hover {
+  color: white;
+}
+
+.naslovlink {
+  text-decoration: none;
+  color: #4056a1;
+}
+
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #c5cbe3; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #4056a1;
+    display: block;
+    transition: 0.3s;
+  }
+
+.sidebar a:hover {
+  color: white;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+.opensidebar {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #4056a1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+  }
+
+.footer {
+  background-color: #efe2ba;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 380px;
+  border-top: 5px solid #4056a1;
+}
+
+.footer h2 {
+  font-size: 30px;
+}
+
+main {
+  flex: 1;
+}
+
+.footeropis {
+  padding-top: 20px;
+}
+
+#footernaziv {
+  font-size: 50px;
+}
+
+.footerpovezave, .footergalerija {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+footer {
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+  color: white;
+}
+
+a:link:active, a:visited:active {
+  color: white;
+}
+}
+
+.footerpovezave a, .footergalerija a {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.footerkontakt {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.footerkontakt i {
+  margin-right: 15px;
+}
+
+#fk1, #fk2, #fk3, #fk4, #fk5 {
+  display: flex;
+}
+
+#fb {
+  font-size: 30px;
+  background-color: navy;
+  color: white;
+  padding: 10px 17px;
+  margin-top: 25px;
+  border-radius: 15%;
+}
+
+.footer2 {
+  background-color: #efe2ba;
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.line {
+  border-bottom: solid 2px #4056a1;
+}
+
+.copyrights {
+  display: flex;
+}
+
+#copyrightsleto {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1150px) {
+  .meni {display: none;}
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+    footer {display: flex; flex-direction: column;}
+    .footer {height: 1100px;}
+  }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    footer {display: flex; flex-direction: column;}
+    .footer {height: 950px;}
+  }
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    footer {display: flex; flex-direction: column;}
+    .footer {height: 950px;}
+  }
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    footer {display: flex; flex-direction: column;}
+    .footer {height: 950px;}
+  }
